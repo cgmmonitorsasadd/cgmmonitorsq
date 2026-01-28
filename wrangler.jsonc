@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers / Pages configuration for static assets
+  "name": "cgmmonitorsq",
+  "compatibility_date": "2026-01-28",
+
+  // This tells Wrangler to upload a directory of static files
+  "assets": {
+    "directory": "./dist"
+  }
+}
